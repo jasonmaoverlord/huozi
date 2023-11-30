@@ -100,7 +100,7 @@ def run_gradio(generate_kwargs, model):
     # 本地运行 (如果要使用gradio生成分享链接，share=True)
     demo.launch(share=False)
     # 如果在服务器运行，如下声明后即可通过服务器地址+端口号的方式在其他设备访问
-    demo.launch(server_name="0.0.0.0", server_port=7860， share=False)
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=False)
 
 
 def main(
